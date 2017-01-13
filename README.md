@@ -18,5 +18,7 @@ This utility lets you change your desktop's wallpaper randomly whenever any user
 	- In "General" tab, mention any name for your task
 	- In "Triggers" tab, click on new and then specify when it should be triggered. Select "workstation unlock" in the dropdown.
 	- In "Actions" tab, there'll be a settings option. Mention the path to your python.exe (eg, C:\Python27\python.exe ) and add the path to your python script (wallpaper.py) in the arguments.
-	- In "Conditions" tab, uncheck the power button
+	- In "Conditions" tab, uncheck the power button.
+	
+	
 That's all, you have created one task for windows to run when any user logs in to your system. This task will run the python script whose path you have mentioned while creating the task.
